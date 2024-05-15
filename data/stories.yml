@@ -1,0 +1,121 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+- story: happy path ofc 
+  steps:
+  - intent: las
+  - action: utter_las
+- story: happy path ofc 
+  steps:
+  - intent: offa
+  - action: utter_offa
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: Linsoft_1
+  steps:
+  - intent: Linsoft_clients_N 1
+  - action: utter_Linsoft_Response_N 1
+
+- story: Linsoft_2
+  steps:
+  - intent: Linsoft_clients_N 2
+  - action: utter_Linsoft_Response_N 2
+
+- story: Linsoft_3
+  steps:
+  - intent: Linsoft_clients_N 3
+  - action: utter_Linsoft_Response_N 4
+
+- story: Linsoft_4
+  steps:
+  - intent: Linsoft_clients_N 4
+  - action: utter_Linsoft_Response_N 1
+
+- story: Linsoft_5
+  steps:
+  - intent: Linsoft_clients_N 5
+  - action: utter_Linsoft_Response_N 1
+- story: Linsoft_6
+  steps:
+  - intent: Linsoft_clients_N 6
+  - action: utter_Linsoft_Response_N 2
+- story: Linsoft_7
+  steps:
+  - intent: Linsoft_clients_N 7
+  - action: utter_Linsoft_Response_N 1
+- story: Linsoft_8
+  steps:
+  - intent: Linsoft_clients_N 8
+  - action: utter_Linsoft_Response_N 2
+- story: Linsoft_9
+  steps:
+  - intent: Linsoft_clients_N 9
+  - action: utter_Linsoft_Response_N 3
+
+- story: Linsoft_10
+  steps:
+  - intent: Linsoft_clients_N 10
+  - action: utter_Linsoft_Response_N 4
+
+- story: Linsoft_11
+  steps:
+  - intent: Linsoft_clients_N 11
+  - action: utter_Linsoft_Response_N 5
+
+- story: Linsoft_12
+  steps:
+  - intent: Linsoft_clients_N 12
+  - action: utter_Linsoft_Response_N 6
+
+- story: Linsoft_13
+  steps:
+  - intent: Linsoft_clients_N 13
+  - action: utter_Linsoft_Response_N 7
+  
+- story: Linsoft_15
+  steps:
+  - intent: Linsoft_clients_N 15
+  - action: utter_Linsoft_Response_N 8
+  
+- story: Linsoft_16
+  steps:
+  - intent: Linsoft_clients_N 16
+  - action: utter_Linsoft_Response_N 7
+  
+- story: Linsoft_17
+  steps:
+  - intent: Linsoft_clients_N 17
+  - action: utter_Linsoft_Response_N 9
+  
+
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+
+- story: admin story
+  steps:
+  - intent: offa
+  - action: utter_offa

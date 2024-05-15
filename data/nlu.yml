@@ -1,0 +1,143 @@
+version: "3.1"
+
+nlu:
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - im bot my father is lyes mach (lasishere0120)
+- intent: Linsoft_clients_N 1
+  examples: |
+    - Je suis intéressé pour la formation
+    - intéressé pour la formation RHCSA 
+    - Pourriez-vous me donner plus de détails concernant le planning de formation
+    - Pourriez-vous me donner plus de détails concernant le planning de examen
+    - Pourriez-vous me donner plus de détails concernant le planning de formation et des examens svp 
+    - Je suis intéressé pour la formation RHCSA Pourriez-vous me donner plus de détails concernant le planning de formation et des examens svp ?
+
+
+- intent: Linsoft_clients_N 2
+  examples: |
+    - Je me permets de vous contacter pour demander des informations sur la prochaine session de préparation à l'examen EX200 
+    - Je me permets de vous contacter pour demander des informations sur la prochaine session de préparation à cours RH124 et RH134 
+    - Je me permets de vous contacter pour demander des informations sur la prochaine session de préparation à cours RH124 et RH134 et l'examen EX200 
+    - Je me permets de vous contacter pour demander des informations sur la prochaine session de préparation à cours RH124 et RH134 et l'examen EX200 et prix inclut voucher
+
+- intent: Linsoft_clients_N 3
+  examples: |
+    - je veux savoir le prix formation AWS 
+    - je veux savoir le prix formation AWS archetect et les dates 
+    - le formation de la AWS svp
+    - le formation de la amezon svp
+
+
+- intent: Linsoft_clients_N 4
+  examples: |
+    - Auriez-vous svp les dates des formations OpenShift do285 
+    - Auriez-vous svp les dates des formations OpenShift do285 pour tous le periode 
+    - Auriez-vous svp les dates des formations OpenShift do285 pour la période juillet août? 
+
+- intent: Linsoft_clients_N 5
+  examples: |
+    - il y a des sessions prévu pour la formation 
+    - il y a des sessions prévu pour la formation & certification RH199
+    - il y a des sessions prévu pour la formation & certification RH199/RHCSA sur le mois de janvier en Tunisie ? 
+
+- intent: Linsoft_clients_N 6
+  examples: |
+    - je veux savoir le prix pour EXAM RHCSA POUR 3 PERS ? 
+
+- intent: Linsoft_clients_N 7
+  examples: |
+    - Bonjour, svp Prix formation exam RHCSA et date session ? 
+
+- intent: Linsoft_clients_N 8
+  examples: |
+    - Est ce que vous pouvez me communiquer le prix pour la formation aws solution architect ? 
+    
+- intent: Linsoft_clients_N 9
+  examples: |
+    - Bonjour, J'ai quelques questions a propos les certificats aws ... 
+    - J'ai quelques questions a propos les certificats aws 
+    - Bonjour, J'ai quelques questions a propos les certificats amezon 
+
+- intent: Linsoft_clients_N 10
+  examples: |
+    - je voulais savoir si vous avez des formation DevOps prochainement, merci de m'envoyer les details
+    - je voulais savoir si vous avez des formation DevOps prochainement
+
+#dataset 2 linsoft 
+- intent: Linsoft_clients_N 11
+  examples: |
+    - Est-ce que je pourrais avoir le catalogue de formation 
+    - svp le catalogue de formation 
+    - list de votre formation 
+
+- intent: Linsoft_clients_N 12
+  examples: |
+    - Je veux connaître les formations certifiantes Red Hat chez linsoft ?
+    - les formations certifiantes Red Hat chez linsoft
+    - les formations certifiantes Red Hat 
+
+- intent: Linsoft_clients_N 13
+  examples: |
+    - Je veux connaître les formations certifiantes AWS chez linsoft ?
+    - les formation aws
+    - les formations certifiantes AWS chez linsoft 
+    - les formations certifiantes AWS 
+
+- intent: Linsoft_clients_N 15
+  examples: |
+    - Je veux connaître les formations certifiantes Linux Foundation chez linsoft ?
+    - les formations certifiantes Linux Foundation chez linsoft
+    - les formations certifiantes Linux Foundation 
+
+- intent: Linsoft_clients_N 16
+  examples: |
+    - Quelles sont les Formations incluses dans le AWS Bootcamp 
+    - les Formations incluses dans le AWS Bootcamp 
+    - bootcamp formations 
+
+- intent: Linsoft_clients_N 17
+  examples: |
+    - Quel est le cursus à suivre pour un débutant dans le domaine d’administration Linux
+    
+

@@ -1,0 +1,7 @@
+{
+"host":"127.0.0.1",
+"port":5001,
+"page":"index.html",
+"rasa_api":"http://localhost:5005/webhooks/rest/webhook",
+"las":"las is here 0120"
+}

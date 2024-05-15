@@ -1,0 +1,110 @@
+version: "3.1"
+
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- file
+- Linsoft_clients_N 1
+- Linsoft_clients_N 2
+- Linsoft_clients_N 3
+- Linsoft_clients_N 4
+- Linsoft_clients_N 5
+- Linsoft_clients_N 6
+- Linsoft_clients_N 7
+- Linsoft_clients_N 8
+- Linsoft_clients_N 9
+- Linsoft_clients_N 10
+- Linsoft_clients_N 11
+- Linsoft_clients_N 12
+- Linsoft_clients_N 13
+- Linsoft_clients_N 14
+- Linsoft_clients_N 15
+- Linsoft_clients_N 16
+- Linsoft_clients_N 17
+- ramdan
+- offa
+
+
+entities:
+- name
+
+slots:
+  name:
+    type: any
+    mappings:
+    - type: from_entity
+      entity: name
+
+
+responses:
+  utter_greet:
+  - text: "Hey {name}! How are you?"
+  - text: "hi there {name}"
+  utter_ramdan:
+  - text: "ramdan kareem {name}"
+  utter_offa:
+  - text: "ok aycho  hmdoulh ya rabi"
+  utter_cheer_up:
+  - text: "Here is something t*cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_Linsoft_Response_N 1:
+  - text: "Voici un lien vers notre planning des formations prévues :\n https://www.linsoft.xyz/fr/session/schedule "
+
+  utter_Linsoft_Response_N 2:
+  - text: "Le devis change selon : * delivery mode * La formation * Avec ou sans examen\
+      \ * Personne physique ou entreprise * Emplacement géographique  Merci de remplir\
+      \ le formulaire suivant pour que notre Sales Team vous contacterait le plutôt\
+      \ possible. Ou bien nous contacter sur (+216) 71 960 819 | (+216) 31 332 200\
+      \ ou par mail sur contact-tn@linsoft.xyz"
+
+  utter_Linsoft_Response_N 3:
+  - text: "Merci de remplir le formulaire suivant pour que notre Sales Team vous contacterait\
+      \ le plutôt possible. Ou bien nous contacter sur (+216) 71 960 819 | (+216)\
+      \ 31 332 200 ou par mail sur contact-tn@linsoft.xyz"
+
+  utter_Linsoft_Response_N 4:
+  - text: "Voici un lien vers notre planning des formations prévues https://www.linsoft.xyz/fr/session/schedule\
+      \ .Pour toute autre information, Merci de nous contacter\tsur (+216) 71 960\
+      \ 819 |(+216) 31 332 200 ou par mail sur contacttn@linsoft.xyz "
+  utter_Linsoft_Response_N 5:
+  - text: "*RH124  * RH134  *RH294  *DO180  *DO280  *DO380  *DO480  *DO467  *DO374\
+      \  *DO370  *DO322  *CKA  *CKAD  *CKS  *LFCSA  *LFCE  \t*AWS technical essentials\
+      \  *AWS architect Associate "
+  utter_Linsoft_Response_N 6:
+  - text: "\t*RH124  *RH134  *RH294  *DO280  *DO380  *DO480  *DO467  *DO374  *DO370\
+      \   "
+  utter_Linsoft_Response_N 7:
+  - text: "* AWS technical essentials  *\tAWS architect Ass*ciate "
+  utter_Linsoft_Response_N 8:
+  - text: "*CKA  *CKAD  *CKS  *LFCSA  "
+
+  utter_Linsoft_Response_N 9:
+  - text: " *C’est le cursus RHCSA -> RHCE -> specialité *penshift *Ou bien C’est\
+      \ le cursus RHCSA -> RHCE -> specialité openstack *Ou bien C’est le cursus RHCSA\
+      \ -> RHCE -> specialité automatisation avec ansible *Ou bien C’est le cursus\
+      \ RHCSA -> kubernetes *Ou bien C’est le cursus AWS technical essentials -> AWS\
+      \ Architect associate "
+
+
+
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
